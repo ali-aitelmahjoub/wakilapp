@@ -1,0 +1,34 @@
+.aproposContainer{
+    width: 100%;
+    height: 550px;
+   
+    padding-left: 150px;
+    color: var(--secondary-color);
+   
+}
+.aproposWrap{
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: 45% 45%;
+    grid-gap: 2em;
+    
+    text-align: center;
+    
+}
+.box{
+    
+ box-shadow: 0px 0px 8px   #333;
+   padding: 10%;
+   
+}
+
+.info{
+    border: none;
+    text-align: start;
+}
+.miniTitle,.infoTitle{
+    line-height: 1.5em;
+}
