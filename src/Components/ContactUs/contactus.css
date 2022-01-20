@@ -1,29 +1,33 @@
 .contactUsContainer{
     width: 100%;
     height: 500px;
-    background-color: #333;
-   display: flex;
+    /* background-color: #333; */
+   display: inline-block;
   overflow: hidden;
-   padding:10px 60px ;
-   border: rgb(141, 137, 137) 2px solid;
+   background-image: url(../../img/img4.jpg);
+   background-position: center;
+   background-size: cover;
+   object-fit: cover;
 }
+ 
+
 .contactUsWrap{
     height: 100%;
     width: 100%;
     /* padding: 10px; */
     display: flex;
    justify-content: space-between;
-   /* border: rgb(212, 46, 46) 2px solid; */
+
 }
 .left{
-  /* border: violet 2px solid; */
+ 
  width: 70%;
 }
 .topLeft{
     height: 20%;
    padding: 20px;
     color: whitesmoke;
-    /* border: yellow 2px solid; */
+
 }
 .contactus-tile{
     font-weight: bold;
@@ -35,13 +39,13 @@
 .boottomLeft{
    display: flex;
    flex-direction: column; 
-    /* border: whitesmoke 2px solid; */
+  
     height: 80%;
     width: 75%;
     margin-left: 30px;
 }
 .block{
-    /* border: tomato 1px solid; */
+   
     margin-bottom: 10px;
    
 }
@@ -80,4 +84,26 @@
     border-radius: 10px;
     text-align: center;
     align-self: center;
+}
+
+.right{
+  
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: var(--secondary-color);
+  
+    justify-content: center;
+}
+.item{
+    margin-bottom: 10px;
+    
+    height: 50px;
+    text-align: center;
+  
+}
+
+.contactUsLogo{
+    height: 90px;
 }

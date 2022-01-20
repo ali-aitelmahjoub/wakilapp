@@ -1,11 +1,12 @@
 import React from 'react';
 import './contactus.css'
 import { motion } from 'framer-motion';
+import contactusImg from '../../img/img4.jpg'
 
 
 const Contactus = () => {
 return <div className='contactUsContainer'>
-            <img src=''/>
+            {/* <img className='contactusImg' src={contactusImg}/> */}
                     <div className="contactUsWrap">
                         <div className="left">
                             <div className="topLeft">
@@ -54,16 +55,16 @@ return <div className='contactUsContainer'>
                                 className='txt-besoin txt block' id="" cols="30" rows="10" placeholder='Besoin specifiques'></motion.textarea>
                                 <motion.button
                                  whileInView={{y:0,opacity:1}}
-                                 initial={{y:80,opacity:0}}
-                                 transition={{delay:1,duration:2.2}}
+                                 initial={{y:70,opacity:0}}
+                                 transition={{delay:1,duration:2.4}}
                                 type="submit" className='btn-submit block'>Envoyer</motion.button>
                             </form>
                         </div>
                         <div className="right">
-                            <h1 className='contactUsLogo'>logo</h1>
-                            <p className='contactUsInfo'>(+212)6467646765</p>
-                            <p className='contactUsInfo'>#####@gmail.com</p>
-                            <p className='contactUsInfo'>Lundi - vendredi: 09h - 18h Samedi: 09h - 13h</p>
+                            <h1 className='contactUsLogo item'>WAKIL</h1>
+                            <p className='contactUsInfo item'><i class="fas fa-phone-alt"></i> (+212)6467646765</p>
+                            <p className='contactUsInfo item'><i class="fas fa-paper-plane"></i> #####@gmail.com</p>
+                            <p className='contactUsInfo item'><i class="far fa-clock"></i> Lundi - vendredi: 09h - 18h Samedi: 09h - 13h</p>
                         </div>
                     </div>
     </div>;
