@@ -19,7 +19,7 @@ export const Hero = () => {
     >Lorem ipsum dolor, sit amet consectetur adhhhhhhh blablo. Autem quisquam dolorem iste est doloribus, sint ducimus quia iure excepturi, pariatur et blanditiis in dicta quaerat illo similique eum eveniet mollitia!</motion.p>
     
     <motion.div className='btnContactwrap'
-    initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{delay:3,duration:5,type: "spring", stiffness: 100 }}>
+    initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3,duration:3 }}>
         <motion.button
     whileHover={{scale:1.1,textShadow:"0px 0px 8px rgb(255,255,255)",boxShadow:"0px 0px 8px rgb(255,255,255)"}}
     className='btn-contact'>CONTACT US</motion.button>
