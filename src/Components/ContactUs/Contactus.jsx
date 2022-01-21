@@ -6,7 +6,7 @@ import contactusImg from '../../img/img4.jpg'
 
 const Contactus = () => {
 return <div className='contactUsContainer'>
-            {/* <img className='contactusImg' src={contactusImg}/> */}
+            
                     <div className="contactUsWrap">
                         <div className="left">
                             <div className="topLeft">
@@ -29,21 +29,16 @@ return <div className='contactUsContainer'>
                                    transition={{delay:1,duration:1.3}}
                                   className="secondBlock block">
                                   <input type="email" className='txt-email txt' placeholder='Votre email' />
+                                  <input type="tel" className='txt-tel txt' placeholder='Votre Numero de telephone' />
                                 </motion.div>
 
-                               <motion.div
-                                whileInView={{y:0,opacity:1}}
-                                initial={{y:100,opacity:0}}
-                                transition={{delay:1,duration:1.5}}
-                               className="thirdBlock block">
-                               <input type="tel" className='txt-tel txt' placeholder='Votre Numero de telephone' />
-                               </motion.div>
+                
 
                                 <motion.div
                                  whileInView={{y:0,opacity:1}}
                                  initial={{y:100,opacity:0}}
                                  transition={{delay:1,duration:1.7}}
-                                className="fourthBlock block">
+                                className="thirdBlock block">
                                 <input type="text" className='txt-agence txt' placeholder='Agence ou resau'/>
                                 <input type="number" className='rdv-souhaite txt' placeholder='nombre de Rendez-vous souhautes' />
                                 </motion.div>
@@ -53,6 +48,7 @@ return <div className='contactUsContainer'>
                                  initial={{y:100,opacity:0}}
                                  transition={{delay:1,duration:1.9}}
                                 className='txt-besoin txt block' id="" cols="30" rows="10" placeholder='Besoin specifiques'></motion.textarea>
+                               
                                 <motion.button
                                  whileInView={{y:0,opacity:1}}
                                  initial={{y:70,opacity:0}}
