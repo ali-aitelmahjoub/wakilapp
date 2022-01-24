@@ -23,7 +23,7 @@ export const Stats = () => {
                  <div className=" dataWrap dataYear">
                      <span className="data">+15</span>
                      <div className="dataText">
-                       <span className="dataIcon"><i class="fas fa-user-tie"></i></span>
+                       <span className="dataIcon"><i className="fas fa-user-tie"></i></span>
                         <span className="word">YEARS EXPERIENCE</span>
                      </div>
                    
@@ -31,7 +31,7 @@ export const Stats = () => {
                  <div className="dataWrap dataClient">
                      <span className="data">+1423</span>
                        <div className="dataText">
-                           <span className="dataIcon"><i class="fas fa-star"></i></span>
+                           <span className="dataIcon"><i className="fas fa-star"></i></span>
                            <span className="word">SATIFIED CUSTOMER</span>
                        </div>
                     
@@ -39,7 +39,7 @@ export const Stats = () => {
                  <div className="dataWrap dataSolde">
                      <span className="data">+876</span>
                      <div className="dataText">
-                        <span className="dataIcon"><i class="fas fa-check"></i></span>
+                        <span className="dataIcon"><i className="fas fa-check"></i></span>
                         <span className="word">SOLD!</span>
                      </div>
                     
@@ -47,7 +47,7 @@ export const Stats = () => {
                  <div className="dataWrap dataHours">
                      <span className="data">+1647</span>
                      <div className="dataText">
-                       <span className="dataIcon"><i class="fas fa-phone"></i></span>
+                       <span className="dataIcon"><i className="fas fa-phone"></i></span>
                        <span className="word">HOURS ON MONTHS</span>
                      </div>
                    

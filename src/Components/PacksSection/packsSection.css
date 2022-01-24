@@ -1,0 +1,108 @@
+.packsSection{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    --accent: #8855ff;
+    background-image: url(../../img/packBackgroud.jpg);
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.window {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    display: flex;
+    flex-direction: column;
+  }
+  .packsShow{
+      display: flex;
+     align-content: center;
+     justify-content: space-between;
+     margin: 40px 30px;
+  }
+
+.underline {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #8855ff;
+  }
+  
+.packTitle{
+  background-color: #fff;
+  text-align: center;
+}
+.packDisc{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+  .packSelction,
+  .packSelctionItem {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.packSelction {
+  display: flex;
+  width: 100%;
+ 
+}
+
+.packSelctionItem  {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    padding: 10px 15px;
+    position: relative;
+    background: white;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    user-select: none;
+    margin-bottom: 15px;
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+.packSelctionItem.selected {
+  background: #eee;
+}
+
+
+
+
+

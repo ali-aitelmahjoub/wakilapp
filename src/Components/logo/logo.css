@@ -1,0 +1,26 @@
+.logo{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.iconLogo{
+    font-size: 30px;
+    color: var( --secondary-color);
+}
+.rightLogo{
+    display: flex;
+    flex-direction: column;
+}
+.topLogo{
+    font-size: 24px;
+    font-weight: 900;
+    color: var( --secondary-color);
+}
+.bottomLogo{
+font-size: 12px;
+font-weight: bold;
+color: var(--primary-color);
+}

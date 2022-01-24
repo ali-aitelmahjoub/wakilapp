@@ -6,6 +6,7 @@
     padding: 20px;
     justify-content: center;
     overflow: hidden;
+    scroll-snap-align: start;
 }
 .statsLeft{
     width: 40%;

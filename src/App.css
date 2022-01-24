@@ -4,7 +4,13 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
+scroll-snap-type: y mandatory;
+scrollbar-width: none;
+scroll-behavior:smooth;
 
+}
+::-webkit-scrollbar{
+  display: none;
 }
 :root{
   --primary-color:#D35400;

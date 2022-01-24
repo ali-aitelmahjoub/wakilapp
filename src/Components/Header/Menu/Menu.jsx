@@ -1,6 +1,7 @@
 import React from 'react';
 import './menu.css'
 import { motion } from 'framer-motion';
+import Logo from '../../logo/Logo';
 
 export const Menu = () => {
   const animationStyle = {scale:1.1,borderBottom:'2px solid #fff'};
@@ -8,7 +9,7 @@ export const Menu = () => {
     <div  className='headre-container'>
             <div className="headre-wraper">
                 <div className="headre-left">
-                    <h1 className="logo">WAKIL</h1>
+                    <h1 className="logo"><Logo/></h1>
                 </div>
                 <div className="headre-right">
                 <ul className="headre-Menu">

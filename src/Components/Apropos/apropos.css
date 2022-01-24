@@ -1,22 +1,22 @@
 .aproposContainer{
     width: 100%;
     height: 100vh;
-   
+    scroll-snap-align: start;
     padding-left: 150px;
     color: var(--secondary-color);
-   
+   overflow: hidden;
 }
 .aproposWrap{
     width: 100%;
     height: 90%;
-    margin-top: 50px;
     display: grid;
     grid-template-columns: 25% 25% 25% ;
     grid-template-rows: 45% 45%;
     grid-gap: 2em;
-    
+    margin-top: 50px;
     text-align: center;
     
+   
 }
 .box{
     
