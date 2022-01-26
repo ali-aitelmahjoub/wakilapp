@@ -1,21 +1,25 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-scroll-snap-type: y mandatory;
-scrollbar-width: none;
-scroll-behavior:smooth;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: "Raleway", sans-serif;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
-:root{
-  --primary-color:#D35400;
-  --secondary-color:#2C3E50;
+:root {
+  --primary-color: #d35400;
+  --secondary-color: #2c3e50;
 }
-ul{
+ul {
   list-style: none;
+}
+a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
 }

@@ -1,0 +1,202 @@
+.PackOffreV2 {
+  height: 450px;
+  width: 300px;
+  background-color: #fcc200;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* border: violet 2px solid; */
+}
+.tallre {
+  height: 500px;
+}
+
+.offreWrap {
+  height: 450px;
+  padding: 20px;
+  position: relative;
+  /* border: chartreuse 2px solid; */
+}
+
+.populair {
+  position: absolute;
+  background-color: #080808;
+  border-radius: 10px;
+  top: -10px;
+  left: 100px;
+  width: 100px;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+}
+.PrixOffre {
+  /* border: red 1px solid; */
+  text-align: center;
+  margin-top: 10px;
+}
+.priceTag {
+  /* border: indigo 2px solid; */
+  height: 130px;
+  text-align: center;
+}
+.euro {
+  font-size: 20px;
+  font-weight: bold;
+  /* border: seashell 1PX SOLID; */
+}
+.Price {
+  /* border: seashell 1PX SOLID; */
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+.priceTag p {
+  font-weight: bold;
+  /* border: sienna 1px solid; */
+}
+.offreBtn {
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  border: none;
+  margin-left: 55px;
+  font-weight: 600;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.offreMidle {
+  /* border: lightcoral 2px solid; */
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+}
+legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.converturelist {
+  height: 90%;
+  /* border: tan 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.convertureItem {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eedc82;
+  height: 40px;
+  /* border: yellowgreen 1px solid; */
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  /* opacity: 0.8; */
+}
+.convertureItem span {
+  font-weight: bold;
+}
+.convertureItem p {
+  font-weight: normal;
+}
+.offreBottom {
+  width: 100%;
+  align-items: flex-start;
+  /* border: teal 1px solid; */
+  line-height: 1.5em;
+
+  line-height: 1.7em;
+}
+.offreBottomFirstChild {
+  font-weight: bold;
+}
+
+.blackBack {
+  background-color: #080808;
+}
+.whiteBack {
+  background-color: #fff;
+}
+.blackColor {
+  color: #100c08;
+}
+.whiteColor {
+  color: #fff;
+}
+.silverCol {
+  color: silver;
+}
+.silverBack {
+  background-color: #e5e4e2;
+}
+.hide {
+  display: none;
+}
+.Silver {
+  background-color: #e5e4e2;
+}
+.Bronze {
+  background-color: #100c08;
+}
+.silverItem {
+  background-color: #bfc1c2;
+}
+.bronzeItem {
+  background-color: rgb(41, 40, 40);
+}
+.btnBlack {
+  color: #100c08;
+}
+.offreIcon {
+  /* border: blue 1px solid; */
+  color: #ffd700;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  border-radius: 50%;
+  font-size: 35px;
+  transform: rotateZ(10deg);
+}
+.mask {
+  display: none;
+}
+
+.BronzeR {
+  background-color: #cd6532;
+}
+.BronzeC {
+  background-color: #cd7f32;
+}
+.BronzeL {
+  background-color: #cda632;
+}
+.BcrownType {
+  color: #dca570;
+}
+
+.GoldR {
+  background-color: #ffcc33;
+}
+.GoldC {
+  background-color: #fcc200;
+}
+.GoldL {
+  background-color: #f4c430;
+}
+.GcrownType {
+  color: #ffd700;
+}
+
+.SilverR {
+  background-color: #c0c0c0;
+}
+.SilverC {
+  background-color: #dcdcdc;
+}
+.SilverL {
+  background-color: #d3d3d3;
+}
+.ScrownType {
+  color: #acacac;
+}

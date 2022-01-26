@@ -1,26 +1,33 @@
-.logo{
-    height: 100px;
-    width: 150px;
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
+.logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
-.iconLogo{
-    font-size: 30px;
-    color: var( --secondary-color);
+.iconLogo {
+  height: 60px;
+  /* width: 0px; */
 }
-.rightLogo{
-    display: flex;
-    flex-direction: column;
+.rightLogo {
+  display: flex;
+  flex-direction: column;
 }
-.topLogo{
-    font-size: 24px;
-    font-weight: 900;
-    color: var( --secondary-color);
+.topLogo {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  padding-top: 12px;
+  margin: 0;
+  line-height: 0.8em;
 }
-.bottomLogo{
-font-size: 12px;
-font-weight: bold;
-color: var(--primary-color);
+.bottomLogo {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  letter-spacing: 2.5px;
 }
